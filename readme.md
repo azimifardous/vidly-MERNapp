@@ -5,3 +5,14 @@
 
 #### Live Preview:
 https://vidly-app-eight.vercel.app/
+
+
+## Features that have been used in this project
+1. Registering a user -- logging in upon registering.
+2. Login Feature
+3. Protected Routes and API Endpoints -- (eg., only admins can delete a movie)
+4. Liking a movie
+5. Editing an existing movie
+6. Adding a new movie to the database
+7. Filtering and Pagination
+8. Searching
