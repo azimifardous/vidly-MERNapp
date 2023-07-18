@@ -1,5 +1,6 @@
 {
   "jwtPrivateKey": "",
-  "db": "mongodb://127.0.0.1/vidly",
+  "db": "mongodb+srv://vidly:vidly23@cluster0.oigid09.mongodb.net/?retryWrites=true&w=majority",
+  "SUPPRESS_NO_CONFIG_WARNING": true,
   "requiresAuth": true
 }
