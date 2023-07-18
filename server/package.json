@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --verbose",
-    "start": "node seed.js && node index.js",
-    "build": "npm i"
+    "start": "node seed.js && node index.js"
   },
   "engines": {
     "node": "18.x"
