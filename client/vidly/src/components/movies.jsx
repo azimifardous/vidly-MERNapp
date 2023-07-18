@@ -65,7 +65,12 @@ class Movies extends Component {
     const { user } = this.props;
     const { totalCount, data: movies } = this.getPagedData();
 
-    if (count === 0) return <h1>There are no movies in the database.</h1>;
+    if (count === 0)
+      return (
+        <div className="flex justify-center items-center h-full w-full">
+          <span className="loader"></span>
+        </div>
+      );
 
     return (
       <div className="flex justify-center items-center h-full">
